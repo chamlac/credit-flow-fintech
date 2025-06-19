@@ -78,6 +78,11 @@ const AppRoutes = () => {
           <DocumentUploadPage />
         </ProtectedRoute>
       } />
+      <Route path="/new-application" element={
+        <ProtectedRoute>
+          <DocumentUploadPage />
+        </ProtectedRoute>
+      } />
       
       {/* KYC Flow */}
       <Route path="/kyc/document-type" element={

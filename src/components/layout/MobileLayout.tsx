@@ -19,7 +19,7 @@ const MobileLayout: React.FC<MobileLayoutProps> = ({ children, showBottomNav = t
 
   return (
     <div className="mobile-container">
-      <main className={`flex-1 ${shouldShowBottomNav ? 'pb-20' : ''}`}>
+      <main className={`flex-1 ${shouldShowBottomNav ? 'pb-24' : ''}`}>
         {children}
       </main>
       {shouldShowBottomNav && <BottomNavigation />}
